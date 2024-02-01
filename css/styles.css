@@ -105,6 +105,7 @@ img {
 
 .page-header-nav-links-item:hover {
     color: #404BBF;
+    content: '';
 }
 
 .page-header-nav-link {
