@@ -105,7 +105,6 @@ img {
 
 .page-header-nav-links-item:hover {
     color: #404BBF;
-    content: '';
 }
 
 .page-header-nav-link {
@@ -120,8 +119,8 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-header-nav-link::after {
-    content: '';
+.corrent: ::after {
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
